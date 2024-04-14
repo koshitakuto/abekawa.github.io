@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>あべ川動物病院 - お問い合わせ</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/style2.css">
+  <script src="js/contact.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="header-content wrapper">
+      <nav>
+        <ul class="main-nav">
+          <li><a href="top.html">ホーム</a></li>
+          <li><a href="about.html">概要</a></li>
+          <li><a href="access.html">アクセス</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="contact-content">
+    <section class="contact-section">
+      <h2 class="text-center">お問い合わせ</h2>
+      <form id="contact-form" class="text-center">
+        <div class="form-group">
+          <label for="pet-type">ペットの種類</label>
+          <select id="pet-type" name="pet-type" required class="form-control">
+            <option value="">選択してください</option>
+            <option value="dog">犬</option>
+            <option value="cat">猫</option>
+            <option value="rabbit">ウサギ</option>
+            <option value="hamster">ハムスター</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="pet-name">ペットの名前</label>
+          <input type="text" id="pet-name" name="pet-name" required class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="patient-id">診察券番号</label>
+          <input type="text" id="patient-id" name="patient-id" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="name">お名前</label>
+          <input type="text" id="name" name="name" required class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="kana">フリガナ</label>
+          <input type="text" id="kana" name="kana" required class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="email">Eメールアドレス</label>
+          <input type="email" id="email" name="email" required class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="zip-code">郵便番号</label>
+          <input type="text" id="zip-code" name="zip-code" required class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="address">住所</label>
+          <input type="text" id="address" name="address" required class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="phone">電話番号</label>
+          <input type="tel" id="phone" name="phone" required class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="message">お問い合わせ内容</label>
+          <textarea id="message" name="message" required class="form-control"></textarea>
+        </div>
+        <div class="form-group text-center">
+          <input type="checkbox" id="privacy-policy" name="privacy-policy" required>
+          <label for="privacy-policy">
+            <a href="privacy-policy.html" target="_blank">個人情報保護方針</a>に同意の上、内容を確認する
+          </label>
+        </div>
+        <button type="submit" class="submit-btn">送信</button>
+      </form>
+      <div class="form-response text-center">
+        <p>あべ川動物動物病院へお問い合わせいただきありがとうございます。内容を確認次第、お電話またはメールにてご連絡致します。</p>
+        <p>お問い合わせ内容によりましては、回答に時間がかかる場合がございます。また、お客さまからいただいたEメールアドレスが違っている場合、システム障害などによりお返事を差し上げられない場合がございます。返答のない場合は、お手数ですが、お電話でその旨をお問い合わせください。</p>
+        <p>お問い合わせ情報は、フォームにご記入頂きましたメールアドレス宛にも自動返送されます。</p>
+        <p>※ は必須項目となっております。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <div class="footer-content wrapper">
+      <div class="footer-menu">
+        <ul>
+          <li><a href="top.html">ホーム</a></li>
+          <li><a href="about.html">概要</a></li>
+          <li><a href="access.html">アクセス</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </div>
+      <div class="footer-info">
+        <p>〒421-0115<br>静岡市駿河区みずほ4丁目11-5</p>
+        <p>TEL 054-257-3134</p>
+        <p>&copy; 2024 あべ川動物病院. All Rights Reserved.</p>
+      </div>
+    </div>
+    <div class="footer-bg"></div>
+  </footer>
+
+  <script src="js/contact.js"></script>
+</body>
+</html>
