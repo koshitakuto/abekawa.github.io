@@ -1,0 +1,488 @@
+body {
+  text-align: center;
+  padding: 1rem;
+}
+h1 {
+  margin: 40vh 0 40vh;
+  background: #0bd;
+  color: #fff;
+  display: inline-block;
+  padding: 6rem 3rem;
+  border-radius: 50%;
+}
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.main-nav {
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+}
+.main-nav li {
+  margin-left: 36px;
+}
+.main-nav a {
+  color: #432;
+}
+.main-nav a:hover {
+  color: #0bd;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cs_desc {
+  background-image: url(https://www.sozailab.jp/db_img/sozai/18039/daea5d80bc98725029313aeab08ac0fd.png);
+  width: 100%; /* テキストの幅を広くする */
+  height: 100%;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: medium;
+  text-align: center;
+}
+
+h1 {
+  margin: 40vh 0 40vh;
+  background: #0bd;
+  color: #fff;
+  display: inline-block;
+  padding: 6rem 3rem;
+  border-radius: 50%;
+}
+img {
+  max-width: 100%;
+}
+.wrapper {
+  margin: 0 auto;
+  padding: 0 4%;
+}
+/* Header Styles */
+.page-header {
+  background-color: #228B22;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: background-color 0.3s ease;
+}
+
+.page-header.scrolled {
+  background-color: #1E8449;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: padding 0.3s ease;
+}
+
+.page-header.scrolled .header-content {
+  padding: 5px 0;
+}
+
+.logo img {
+  height: 50px;
+  transition: height 0.3s ease;
+}
+
+.page-header.scrolled .logo img {
+  height: 40px;
+}
+
+.main-nav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.main-nav li a:hover {
+  background-color: #1E8449;
+}
+
+.menu-toggle {
+  display: none;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Footer Styles */
+.page-footer {
+  background-color: #228B22;
+  color: #fff;
+  padding: 30px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-menu {
+  margin-right: 20px;
+}
+
+.footer-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.footer-menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.footer-menu li a:hover {
+  background-color: #1E8449;
+}
+
+.footer-info {
+  text-align: right;
+}
+
+.footer-info p {
+  margin: 5px 0;
+}
+
+.footer-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/footer-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.1;
+  z-index: 0;
+}
+
+/* styles.css */
+.feature img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.doctor-message-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.doctor-message-content p,
+.doctor-message-content blockquote {
+  margin-bottom: 1.5rem;
+}
+
+.doctor-message-content blockquote {
+  font-style: italic;
+  color: #666;
+  padding-left: 1rem;
+  border-left: 4px solid #228B22;
+}
+/* styles.css */
+.page-header {
+  background-image: url('https://th.bing.com/th/id/OIP.AD29xVdTkrH4C4uQhIpxJwHaE7?w=269&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7');
+  background-size: cover;
+  background-position: center;
+  padding: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: padding 0.3s ease;
+}
+
+.page-footer {
+  background-image: url('https://th.bing.com/th/id/R.ec7cc47c0dc7dc4393cdd8bfaa6da3d2?rik=hPT4SX2ICBfvZQ&riu=http%3a%2f%2fwww.kato-kizuna.jp%2fkankou%2fimg%2fparts%2ffooter_bg.png&ehk=FikHSIP3Y%2bq93gypS90rxoJskC%2b8BSSdOgIOR%2fNLy6o%3d&risl=&pid=ImgRaw&r=0');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 30px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* 共通スタイル */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ヘッダースタイル */
+.page-header {
+  background-color: #228B22;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: background-color 0.3s ease;
+}
+
+.page-header.scrolled {
+  background-color: #1E8449;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.main-nav li a:hover {
+  background-color: #1E8449;
+}
+
+.menu-toggle {
+  display: none;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* フッタースタイル */
+.page-footer {
+  background-color: #228B22;
+  color: #fff;
+  padding: 30px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-menu {
+  margin-right: 20px;
+}
+
+.footer-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.footer-menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.footer-menu li a:hover {
+  background-color: #1E8449;
+}
+
+.footer-info {
+  text-align: right;
+}
+
+.footer-info p {
+  margin: 5px 0;
+}
+
+.footer-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/footer-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.1;
+  z-index: 0;
+}
+
+/* アクセスページのスタイル */
+.map-section {
+  margin-top: 40px;
+}
+
+.map-container {
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.address-section {
+  text-align: left;
+}
+
+/* お問い合わせページのスタイル */
+.contact-section {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  background-color: #228B22;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* 概要ページのスタイル */
+.about-content-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+}
+
+/* access.css */
+.map-section {
+  margin-top: 40px;
+}
+
+.map-container {
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.access-info-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+.access-info-item {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transform: translateY(50px);
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.access-info-item:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.access-info-item:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.access-info-item:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.access-info-item:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+.access-info-item h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.access-info-item p {
+  margin-bottom: 0;
+}
+
+.form-control {
+  width: 50% !important; /* すべての入力欄の横幅を50%に変更 */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea.form-control {
+  width: 50%; /* お問い合わせ内容の入力欄の横幅も50%に変更 */
+  height: 150px;
+}

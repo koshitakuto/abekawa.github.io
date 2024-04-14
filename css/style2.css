@@ -1,0 +1,61 @@
+.contact-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 50%; /* すべての入力欄の横幅を50%に変更 */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea.form-control {
+  width: 50%; /* お問い合わせ内容の入力欄の横幅も50%に変更 */
+  height: 150px;
+}
+
+.submit-btn {
+  background-color: #228B22;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+.submit-btn:hover {
+  background-color: #1E8449;
+}
+
+.form-response {
+  margin-top: 30px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.form-response p {
+  margin-bottom: 10px;
+}
+
+.text-center {
+  text-align: center;
+}

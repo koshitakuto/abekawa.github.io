@@ -1,0 +1,85 @@
+/* about.css */
+
+/* 概要セクション */
+.about-content-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .about-image {
+    max-width: 400px;
+    margin-right: 40px;
+  }
+  
+  .about-text p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* 診療情報セクション */
+  .info-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .info-item {
+    flex: 1;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-item h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #228B22;
+  }
+  
+  .info-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .info-table th,
+  .info-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .info-table th {
+    background-color: #228B22;
+    color: #fff;
+  }
+  
+  .info-table td {
+    font-weight: bold;
+  }
+  
+  .open {
+    color: green;
+  }
+  
+  .closed {
+    color: red;
+  }
+  
+  /* アニメーション */
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
