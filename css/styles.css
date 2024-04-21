@@ -1,6 +1,15 @@
 body {
   text-align: center;
   padding: 1rem;
+  font-family: 'Noto Sans', Arial, sans-serif;
+}
+h1#heading {
+  margin: 20vh 0; /* 上下の余白を20vhに変更 */
+}
+@media (max-width: 767px) {
+  h1#heading {
+    margin: 10vh 0; /* 上下の余白を10vhに変更 */
+  }
 }
 h1 {
   margin: 40vh 0 40vh;
@@ -25,6 +34,7 @@ img {
   text-transform: uppercase;
   margin-top: 34px;
   list-style: none;
+  font-family: 'Noto Sans', Arial, sans-serif;
 }
 .main-nav li {
   margin-left: 36px;
@@ -154,6 +164,7 @@ img {
   margin: 0;
   padding: 0;
   display: flex;
+  font-family: 'Noto Sans', Arial, sans-serif;
 }
 
 .footer-menu li a {
@@ -216,7 +227,7 @@ img {
 }
 /* styles.css */
 .page-header {
-  background-image: url('https://th.bing.com/th/id/OIP.AD29xVdTkrH4C4uQhIpxJwHaE7?w=269&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7');
+  background-image: url('');
   background-size: cover;
   background-position: center;
   padding: 20px 0;
@@ -228,7 +239,7 @@ img {
 }
 
 .page-footer {
-  background-image: url('https://th.bing.com/th/id/R.ec7cc47c0dc7dc4393cdd8bfaa6da3d2?rik=hPT4SX2ICBfvZQ&riu=http%3a%2f%2fwww.kato-kizuna.jp%2fkankou%2fimg%2fparts%2ffooter_bg.png&ehk=FikHSIP3Y%2bq93gypS90rxoJskC%2b8BSSdOgIOR%2fNLy6o%3d&risl=&pid=ImgRaw&r=0');
+  background-image: url('');
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -485,4 +496,25 @@ body {
 .form-group textarea.form-control {
   width: 50%; /* お問い合わせ内容の入力欄の横幅も50%に変更 */
   height: 150px;
+}
+
+h1, h2, h3, p, blockquote {
+  font-family: 'Noto Sans', Arial, sans-serif;
+}
+
+/* PC版の最大幅設定 */
+@media (min-width: 768px) {
+  .about-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+}
+
+/* モバイル版の最大幅設定 */
+@media (max-width: 767px) {
+  .about-content {
+    max-width: 100%;
+    padding: 0 10px;
+  }
 }
